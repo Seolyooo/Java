@@ -6,7 +6,7 @@ package step1;
  * 이름 : 김철학
  * 내용 : 백준 1단계 1번 문제 - Hello World
  */
-public class Main01 { // 제출할 때는 반드시 Main 클래스 이름으로 제출 
+public class Main01 {
 	
 	public static void main(String[] args) {
 		

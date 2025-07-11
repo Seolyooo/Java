@@ -2,7 +2,7 @@ package sub1;
 
 /*
 	날짜 : 2025/07/07
-	이름 : 김철학
+	이름 : 설유진
 	내용 : 1장 Java 개발환경 구축 실습 
 */
 public class Hello {

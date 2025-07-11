@@ -8,9 +8,9 @@ public class Main11 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		long a = sc.nextInt();
-		long b = sc.nextInt();
-		long c = sc.nextInt();
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		long c = sc.nextLong();
 		
 		System.out.println(a+b+c);
 	}

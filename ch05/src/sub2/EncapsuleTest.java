@@ -5,7 +5,7 @@ package sub2;
 * 캡술화 실습하기
 * 
 * 캡술화(정보은닉)
-* - 캡술화는 객체의 속성을 외부에서 참조하지 못하게 객에릐 속성을 은닉하는 특성
+* - 캡술화는 객체의 속성을 외부에서 참조하지 못하게 객체의 속성을 은닉하는 특성
 * - 클래스의 속성을 반드시 private으로 선언
 * - private 선언을 하면 생성자로 속성을 초기화
 * - 은닉된 정보를 안전하게 사용하기 위해 Getter Setter 사용
@@ -58,7 +58,29 @@ public class EncapsuleTest {
 		wb.show();
 		
 		
+		Book bk= new Book("삼국지","나관중","10001",10);
+		bk.show();
 		
+		Boolean isOk= bk.borrowBook();
+
+		if(isOk) {
+			System.out.println(bk.getTitle()+ "도서대출성공");
+		}else {
+			System.out.println(bk.getTitle() + "실패");
+		}
+		bk.show();
+		
+		Book bk2 = new Book("java","황기태","10002",1);
+		
+		Boolean isOk1= bk2.borrowBook();
+		Boolean isOk2= bk2.borrowBook();
+
+		
+		if(isOk2) {
+			System.out.println(bk2.getTitle()+ "도서대출성공");
+		}else {
+			System.out.println(bk2.getTitle() + "실패");
+		}
 		
 		
 		

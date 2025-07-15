@@ -23,7 +23,7 @@ class AAA{
 class BBB extends AAA {
 	@Override
 	public void method2() {
-		//부모 클래스 method2르 override하기 때문에 어노테이션 @overrㅑde 표시
+		//부모 클래스 method2르 override하기 때문에 어노테이션 @override 표시
 		System.out.println("BBB : method2");
 		}
 	public void method3(int a) {	//overload 메서드

@@ -31,6 +31,9 @@ public class PolyTest {
 		sh.move();
 		sh.hunt();
 
+		
+		System.out.println("--------------");
+
 		//다운캐스팅 -  부모 타입의 객체를 자식 타입으로 캐스팅(형변환)
 		Tiger t = (Tiger) ti;
 		Eagle e = (Eagle) ea;
@@ -45,6 +48,7 @@ public class PolyTest {
 		s.move();
 		s.hunt();
 		
+		System.out.println("--------------");
 		//다형성을 활용한 객체 배열
 		Animal[] arr = {t,e,s};
 		

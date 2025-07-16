@@ -49,7 +49,7 @@ public class StaticTest {
 		avante.show();
 		gr.show();
 		
-		//클래스 메서드 (정적메서드0는 클래스타입으로 참조 호출
+		//클래스 메서드 (정적메서드는 클래스타입으로 참조 호출
 		System.out.println("전체 차량수: " + Car.getCount());
 		
 	

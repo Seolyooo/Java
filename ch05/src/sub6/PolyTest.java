@@ -11,6 +11,9 @@ package sub6;
  * - 객체 생성 할때 타입 선언을 부모 클래스 타입으로 선언 (업캐스팅)
  * - 다형성을 통해서 프로그래밍의 중복 코드 줄이고 유연성 향상
  */
+
+
+
 public class PolyTest {
 
 	
@@ -55,6 +58,21 @@ public class PolyTest {
 		arr[0].move();
 		arr[1].move();
 		arr[2].move();
+		
+		Dog dog = new Dog();
+		Cat cat = new Cat();
+		
+		
+		printsound(dog);
+		printsound(cat);
+		
+		
+		
 	}
-
+	
+	public static void printsound(Pet pet) {
+		pet.makesound();
+	}
+		
+	
 }

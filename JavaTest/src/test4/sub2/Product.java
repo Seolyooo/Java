@@ -24,6 +24,7 @@ class Product1{
 		System.out.println("키보드 추가");
 	}
 	public void printProducctInfo() {
+		
 		System.out.println("상품Id"+productId);
 		System.out.println("상품이름"+productName);
 		System.out.println("상품가격"+price);

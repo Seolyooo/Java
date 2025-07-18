@@ -52,7 +52,7 @@ public class Main03 {
 		ticket.printTicketInfo();
 		System.out.println("-------------------------");
 		// 예약 테스트
-		ticket.bookTicket();
+		ticket. ();
 		System.out.println("-------------------------");
 		// 티켓 정보 출력
 		ticket.printTicketInfo();

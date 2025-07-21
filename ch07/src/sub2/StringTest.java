@@ -66,8 +66,7 @@ public class StringTest {
 		}
 		
 		//문자열 교체
-		String rs1 = message.replace("K"
-				+ "orea", "Busan");
+		String rs1 = message.replace("Korea", "Busan");
 		String rs2= message.replace("Hello", "Welcome");
 		
 		System.out.println("rs1 :" +rs1);

@@ -21,8 +21,8 @@ public class GenericTest {
 		FruitBox<Banana> box2 = new FruitBox<Banana>();
 		box2.setFruit(banana);
 
-		System.out.println();
-		
+		System.out.println(box1.getFruit());
+		System.out.println(box2.getFruit());
 		
 		
 		

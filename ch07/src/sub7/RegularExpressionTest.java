@@ -82,9 +82,6 @@ public class RegularExpressionTest {
 
 		// 아이디 찾기
 		System.out.print("아이디 : ");
-		while (m1.find()) {
-			System.out.println(m1.group());
-		}
 
 		// 이름 찾기
 		System.out.print("이름 : ");

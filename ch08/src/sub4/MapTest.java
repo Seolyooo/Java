@@ -10,7 +10,7 @@ import java.util.Set;
 /*
  * 2025/07/22
  * 설유진
- * 자바  map 실습하기
+ * 자바 map 실습하기
  * 
  */
 public class MapTest {

@@ -1,6 +1,10 @@
 package sub6;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -36,6 +40,21 @@ public class DateTest {
 		
 		System.out.printf("%d-%02d-%02d %02d:%02d:%02d", year, month, dt, hour, min, sec);
 		
+		System.out.println();
+		
+		LocalDate today = LocalDate.now();
+		System.out.println("today: "+today);
+		
+		LocalTime now = LocalTime.now();
+		System.out.println("now : "+now);
+		
+		
+		LocalDateTime dt2 = LocalDateTime.now();
+		System.out.println("dt : "+dt2);
+		
+		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("yyyy--MM-dd HH:mm:ss");
+		String str = dt2.format(fmt);
+		System.out.println(str);
 	}
 
 }
